@@ -54,6 +54,10 @@ execution changes scheduling only. The original adaptation refits models with
 20x JNP weights, uses 450 MIC iterations and 900 toxicity trees; it is not a
 warm-start continuation with every hyperparameter held fixed.
 
-The LM training script is disclosed, but its original collagen master table is
-absent, so exact LM training membership/retraining is not claimed. That limitation
-does not affect deterministic inference from the released checkpoint and seeds.
+The recovered collagen master table now permits deterministic replay of the
+archived masked-LM corpus selection: 5,068 public AMP plus 5,068 collagen rows,
+matching the archived counts. Explicit membership and split manifests are frozen.
+Historical metrics contain no corpus hash, so this is a reconstruction from the
+supplied inputs, not independently authenticated original row membership.
+See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
+FASTA/release metadata remain unavailable; no LM retraining is claimed.

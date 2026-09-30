@@ -1,3 +1,4 @@
 * text=auto eol=lf
 *.pt binary
 *.joblib binary
+data/training/master_all_candidates_with_refined_provenance.csv -text

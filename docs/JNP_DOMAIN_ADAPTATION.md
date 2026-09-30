@@ -138,9 +138,13 @@ weights are preserved; resolving the experimentally assayed sequence and termini
 could require retraining and would change the original adaptation experiment.
 Canonical sequence letters alone do not establish experimental chemistry.
 
-The original LM collagen master table and full-length UniProt snapshot remain
-unavailable. The training procedure and sources are disclosed, but exact LM
-training membership cannot be reconstructed from the smaller inference seed set.
+The recovered collagen master table now permits deterministic replay of the
+archived masked-LM corpus selection: 5,068 public AMP plus 5,068 collagen rows,
+matching the archived counts. Explicit membership and split manifests are frozen.
+Historical metrics contain no corpus hash, so this is a reconstruction from the
+supplied inputs, not independently authenticated original row membership.
+See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
+FASTA/release metadata remain unavailable; no LM retraining is claimed.
 Experimental testing of generated peptides remains necessary.
 
 ## Role in generation

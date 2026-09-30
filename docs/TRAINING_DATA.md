@@ -86,9 +86,20 @@ for the masked LM: 5,068 according to the archived metrics and training script.
 or masked LM; it includes long proteins. The LM balances public positives with
 5,068 randomly shuffled collagen windows from the original
 `master_all_candidates_with_refined_provenance.csv`, excluding the refined
-collagen-like/repeat and nematode/cuticle categories. That master table is not in
-either supplied archive. The training code is available, but exact historical LM
-membership cannot be regenerated from the smaller final inference seed table.
+collagen-like/repeat and nematode/cuticle categories.
+
+The recovered collagen master table now permits deterministic replay of the
+archived masked-LM corpus selection: 5,068 public AMP plus 5,068 collagen rows,
+matching the archived counts. Explicit membership and split manifests are frozen.
+Historical metrics contain no corpus hash, so this is a reconstruction from the
+supplied inputs, not independently authenticated original row membership.
+See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
+FASTA/release metadata remain unavailable; no LM retraining is claimed.
+
+The historical selected collagen rows comprise 2,309 structural/canonical, 1,538
+other probable, 1,099 collagen-associated and 122 other source annotations.
+The historical LM training filter was broader than the final inference filter;
+its labels are preserved rather than retroactively reclassified.
 
 `collagen_seed_candidates.csv` contains 25,415 inherited 20-aa UniProt windows,
 accessions, parent names, organisms, protein lengths and peptide coordinates.
@@ -139,4 +150,5 @@ MIT data license. Code and original model assets have the project's MIT license;
 third-party data retain their own terms. See THIRD_PARTY_NOTICES.md. Historical
 download dates/releases were not recorded in the archives; exact supplied file
 hashes are committed. Remaining provenance limits concern the original LM
-collagen corpus/full-protein snapshot and unresolved assay-chemistry annotations.
+full-protein snapshot, lack of a historical corpus fingerprint, and unresolved
+assay-chemistry annotations.

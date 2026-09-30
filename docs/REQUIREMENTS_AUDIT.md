@@ -1,4 +1,4 @@
-# Submission requirements audit — 2026-09-30
+# Submission requirements audit â€” 2026-09-30
 
 Sources: [organizer requirements](https://github.com/szczurek-lab/amp-challenge-2027),
 [Kaggle submission requirements](https://www.kaggle.com/competitions/amp-challenge/overview/submission-requirements),
@@ -20,21 +20,15 @@ and [competition rules](https://www.kaggle.com/competitions/amp-challenge/rules)
 | Charge, activity, toxicity, diversity and provenance quotas | Passed independent audit with unchanged thresholds |
 | Public training reconstruction | Passed; frozen reconstructed manifests and exact metric/prediction reproduction |
 | JNP interpretation | In-sample adaptation explicitly disclosed; same toxicity holdout confirmed |
-| Training sources and filters | Disclosed in TRAINING_DATA.md; original LM master table/full-protein release remains unavailable |
+| Training sources and filters | Disclosed in TRAINING_DATA.md; LM master table recovered and membership reconstructed; original full-protein release and historical corpus fingerprint remain unavailable |
 | Data rights | Notices included; Hemolytik2 contradictory upstream terms remain a review item |
 | Assay-to-sequence mapping | TFK-18 extended-record caveat disclosed; not silently relabeled |
 | Kaggle package | FASTAs and supporting notes prepared after GitHub validation |
 | Kaggle account/team eligibility, one entry/model and rule acceptance | User must verify; not inferred from repository validation |
 | Actual Kaggle submission | Authorized by the owner after validation; pending Kaggle sign-in and completion of the submission flow |
 
-## Separately uploaded candidate table
-
-`docs/final_top100.csv` was independently uploaded to GitHub in commit `70f8260`
-and is preserved. Its 100 sequences have zero overlap with the validated generated
-`generate/top.fasta`. It is not the top list covered by this validation report
-and is not used by the generator. The submission package's `top.fasta` and
-`top_annotated.csv` are the validated candidates; the independently uploaded CSV
-must not be substituted without a separate selection decision and validation.
+The owner removed the independently uploaded candidate CSV in commit `f3523c2`.
+The validated generated FASTAs remain unchanged.
 
 The current Kaggle page displayed a close time of October 1, 2026 at 00:00
 Europe/Copenhagen (September 30 at 22:00 UTC). Recheck the live page before upload.

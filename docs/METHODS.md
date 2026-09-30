@@ -17,8 +17,13 @@ state or the original collagen master table. The recovered language-model script
 filters the unlabelled public-positive CSV to canonical 18-30-mers, samples an equal
 number of collagen candidates after excluding two refined provenance categories,
 shuffles with seed 42, and uses a seeded random 10%/minimum-1,000 validation split.
-The original full collagen master table is not bundled, so exact LM training
-membership cannot be reconstructed from the smaller inference seed table.
+The recovered collagen master table now permits deterministic replay of the
+archived masked-LM corpus selection: 5,068 public AMP plus 5,068 collagen rows,
+matching the archived counts. Explicit membership and split manifests are frozen.
+Historical metrics contain no corpus hash, so this is a reconstruction from the
+supplied inputs, not independently authenticated original row membership.
+See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
+FASTA/release metadata remain unavailable; no LM retraining is claimed.
 
 Seeds are precomputed 20-residue windows with UniProt accessions, parent names,
 organisms and positions. Full-length protein FASTAs and the historical retrieval

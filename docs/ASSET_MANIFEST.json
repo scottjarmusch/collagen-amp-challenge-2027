@@ -138,5 +138,21 @@
   "data/training/veltri_positive.csv": {
     "bytes": 88889,
     "sha256": "001eff62a758d8037ea6b06fa3ee27ede30a0773ae0699dd8bccf06ef187539e"
+  },
+  "data/training/master_all_candidates_with_refined_provenance.csv": {
+    "bytes": 26658239,
+    "sha256": "d59b958897f81632214a81c226f922d1311aff17670f32cfc4b09f58d6e4cdc9"
+  },
+  "data/splits/masked_lm_corpus.csv": {
+    "bytes": 1357606,
+    "sha256": "d35eb52954ca2bf60a1790c945cfba75aa0020c4170fd4c9c22c7f93937298ba"
+  },
+  "data/splits/masked_lm_train.csv": {
+    "bytes": 1216946,
+    "sha256": "8530738fb35ddbe652a6287235cb054cbdf6eff914210f4ea6ec8f58c9f1ce94"
+  },
+  "data/splits/masked_lm_validation.csv": {
+    "bytes": 140760,
+    "sha256": "7044d507b4ea6bc502b21d22f9d9da62defc73acc1c58edc048762758938441c"
   }
 }

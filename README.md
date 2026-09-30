@@ -92,6 +92,19 @@ Read [JNP adaptation](docs/JNP_DOMAIN_ADAPTATION.md),
 [training disclosure](docs/TRAINING_DATA.md), and [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 Predictions do not establish antimicrobial efficacy or clinical safety.
 
+## Masked-LM training membership
+
+The recovered 75,244-row collagen master table yields 5,068 selected collagen
+rows using the archived seed-42 logic, matching the archived training counts.
+Source hashes and explicit corpus/train/validation manifests are now included.
+This reconstructs membership from supplied inputs; no historical corpus hash
+exists to independently confirm original row identity. The broader historical
+training provenance is disclosed in [the membership report](docs/MASKED_LM_MEMBERSHIP.md).
+
+```sh
+uv run python scripts/reconstruct_masked_lm_membership.py
+```
+
 ## Organizer validation
 
 Validate the public repository:

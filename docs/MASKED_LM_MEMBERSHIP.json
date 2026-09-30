@@ -1,0 +1,45 @@
+{
+  "status": "Deterministic reconstruction from supplied source files and archived code; not an independently preserved historical membership fingerprint.",
+  "seed": 42,
+  "master_rows": 75244,
+  "eligible_collagen_rows": 54042,
+  "counts": {
+    "n_amp": 5068,
+    "n_collagen": 5068,
+    "n_total": 10136
+  },
+  "archived_counts_match": true,
+  "train_rows": 9123,
+  "validation_rows": 1013,
+  "collagen_provenance_counts": {
+    "structural/canonical collagen": 2309,
+    "collagen-associated": 1099,
+    "other probable collagen": 1538,
+    "other collagen-source annotation": 122
+  },
+  "unique_collagen_sequences": 5068,
+  "unique_corpus_sequences": 10136,
+  "train_validation_shared_unique_sequences": 0,
+  "selected_collagen_row_indices_sha256": "97ad6fd5ab3d24c21bc5b60d67456b65a7ce43e591dc2247b4ab8106594cea5f",
+  "ordered_collagen_sequences_sha256": "76231eb30815dc37b57bb69e2d6d57f5025eb5375bdedc7ff1c47762bbc2dd60",
+  "ordered_corpus_sequences_sha256": "f3d744b8389851a01f8d5d6477ab207f1e3fc86fe3f835b0ed76ff3ffeebf5a6",
+  "source_sha256": {
+    "data/training/master_all_candidates_with_refined_provenance.csv": "d59b958897f81632214a81c226f922d1311aff17670f32cfc4b09f58d6e4cdc9",
+    "data/training/unlabelled_positive.csv": "f69ae3f199bffd51e425c92de1d12a03118fc5c74006482d0b3c83cc207df5f2",
+    "scripts/archived_training/train_masked_lm.py": "520614305430ad00192cce9ca77b74af4d5ab4a9fb8dc56e6566e549f9ceff5a"
+  },
+  "manifest_sha256": {
+    "masked_lm_corpus.csv": "d35eb52954ca2bf60a1790c945cfba75aa0020c4170fd4c9c22c7f93937298ba",
+    "masked_lm_train.csv": "8530738fb35ddbe652a6287235cb054cbdf6eff914210f4ea6ec8f58c9f1ce94",
+    "masked_lm_validation.csv": "7044d507b4ea6bc502b21d22f9d9da62defc73acc1c58edc048762758938441c"
+  },
+  "runtime": {
+    "pandas": "2.3.3",
+    "torch": "2.10.0+cpu"
+  },
+  "limits": [
+    "Historical metrics contain counts but no corpus hash or row manifest; counts alone cannot prove original row identity.",
+    "Historical random_split is row-based, without deduplication or homology grouping.",
+    "No LM retraining, weight replacement, generation or candidate-selection change performed."
+  ]
+}

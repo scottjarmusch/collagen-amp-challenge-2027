@@ -69,9 +69,13 @@ mechanistic evidence. It does not alter inference or selection.
 ## Remaining review items
 
 The machine validator does not certify dataset rights or biological provenance.
-The original LM collagen master table/full-length protein snapshot is absent;
-its source and training procedure are disclosed, but exact LM retraining is not
-claimed. Hemolytik2 has conflicting upstream license statements. The TFK-18 archive
+The recovered collagen master table now permits deterministic replay of the
+archived masked-LM corpus selection: 5,068 public AMP plus 5,068 collagen rows,
+matching the archived counts. Explicit membership and split manifests are frozen.
+Historical metrics contain no corpus hash, so this is a reconstruction from the
+supplied inputs, not independently authenticated original row membership.
+See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
+FASTA/release metadata remain unavailable; no LM retraining is claimed. Hemolytik2 has conflicting upstream license statements. The TFK-18 archive
 record contains an extended 33-residue sequence requiring assay-level clarification.
 Those caveats are visible in TRAINING_DATA.md and JNP_DOMAIN_ADAPTATION.md.
 Accordingly, technical validity is verified; blanket full-compliance/co-authorship
