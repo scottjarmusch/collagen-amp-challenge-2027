@@ -1,0 +1,18 @@
+{
+  "chunks": 13,
+  "unique_ml_proposals": 58545,
+  "library_size": 50000,
+  "strict_top_pool": 35907,
+  "top_size": 100,
+  "classes": {
+    "structural_collagen": 80,
+    "probable_collagen": 20
+  },
+  "unique_parents": 90,
+  "max_internal_similarity": 0.75,
+  "median_amp_probability": 0.9996803837977302,
+  "median_pred_ecoli_mic_uM": 5.743005600353914,
+  "median_toxicity_probability": 0.17073422933620713,
+  "median_mutations": 5.0,
+  "median_parent_identity": 0.75
+}

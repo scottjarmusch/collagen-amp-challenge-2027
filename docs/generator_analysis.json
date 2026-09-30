@@ -1,0 +1,30 @@
+{
+  "mutation_counts": {
+    "3": 15,
+    "4": 20,
+    "5": 23,
+    "6": 42
+  },
+  "parent_identity_median": 0.75,
+  "parent_identity_range": [
+    0.7,
+    0.85
+  ],
+  "top_parent_protein_types": {
+    "Collagen": 9,
+    "Collagen IV NC1 domain-containing protein": 8,
+    "Collagen type VI alpha 6 chain": 3,
+    "Collagen alpha-1(I) chain-like": 3,
+    "Collagen type VI alpha 2 chain": 3,
+    "Collagen alpha-5(VI) chain": 3,
+    "Fibrillar collagen NC1 domain-containing protein": 3,
+    "Collagen alpha-6(VI) chain-like": 3,
+    "Collagen alpha-6(VI) chain": 2,
+    "Collagen alpha-1(VI) chain": 2,
+    "Collagen alpha-1(II) chain": 2,
+    "Collagen alpha-1(XV) chain": 2
+  },
+  "median_predicted_amp_probability": 0.9996803837977302,
+  "median_predicted_ecoli_mic_uM": 5.743005600353914,
+  "median_predicted_toxicity_probability": 0.17073422933620713
+}

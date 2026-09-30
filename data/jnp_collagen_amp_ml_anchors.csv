@@ -1,0 +1,12 @@
+name,sequence,source,organism,mic_ecoli_uM,mic_saureus_uM,mic_calbicans_uM,cytotox_assay,cytotox_label,cytotox_constraint,cytotox_numeric_type
+REI-26,REIGRAMRFISRNVFKRTLPGAHTRK,Col6a6,Homo sapiens,5,2.5,1.25,"FMCA U-937 GTB, 72 h",low,90-100% viability through 40 uM,interval_text
+LEL-28,LELHVRRELHRLRRDVSHLQLTRRQQRR,Col4 CG42342,Drosophila melanogaster,40,20.625,2.5,"FMCA U-937 GTB, 72 h",low,majority of collagen-derived peptides showed little/no viability reduction across tested range; exact point values not tabulated,qualitative
+TRR-26,TRRRVRRTSRLVAKRALLLCILLYCT,Col6a6,Danio rerio,3.75,2.5,1.875,"FMCA U-937 GTB, 72 h",low,90-100% viability through 40 uM; modest reduction at 80 uM,interval_text
+LRS-21,LRSPGISRFRRKIAKRSIKTL,Col9a1,Gallus gallus,3.75,3.75,3.125,"FMCA U-937 GTB, 72 h",low,majority of collagen-derived peptides showed little/no viability reduction across tested range; exact point values not tabulated,qualitative
+SPE-22,SPEYPEHMRWKRSLSRKAKRKP,Col12a1,Gallus gallus,30,22.5,3.75,"FMCA U-937 GTB, 72 h",low,majority of collagen-derived peptides showed little/no viability reduction across tested range; exact point values not tabulated,qualitative
+GFD-30,GFDILLGLDVNKKVKKRIQLSPKKIKGYEV,Col21a1,Homo sapiens,10,3.75,6.25,"FMCA U-937 GTB, 72 h",low,majority of collagen-derived peptides showed little/no viability reduction across tested range; exact point values not tabulated,qualitative
+GPE-19,GPENFSKMKMFMKNLVSKS,Col6a6,Mus musculus,>40,>40,>40,"FMCA U-937 GTB, 72 h",low_or_neutral,collagen-derived comparator; exact point values not tabulated,qualitative
+TFK-18,SFVARNTFKRVRNGFLMRKVAVFFSNTPTRASP,Col6a3,Homo sapiens,3.75,2.5,1.875,"FMCA U-937 GTB, 72 h",intermediate,more cytotoxic than most collagen-derived peptides but less than LL-37/melittin; exact point values not tabulated,ordinal
+LL-37,LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES,benchmark,Homo sapiens,1.25,1.875,3.75,"FMCA U-937 GTB, 72 h",high,substantial cytotoxicity at elevated concentrations,ordinal
+melittin,GIGAVLKVLTTGLPALISWIKRKRQQ,benchmark,Apis mellifera,1.25,2.5,1.875,"FMCA U-937 GTB, 72 h",very_high,strongest concentration-dependent cytotoxicity in study,ordinal
+GEK-25,GEKGNPGRRGDKGPRGEKGERGDVG,Col6a3,Homo sapiens,>40,>40,>40,"FMCA U-937 GTB, 72 h",low_or_neutral,modest reduction only at 80 uM,interval_text

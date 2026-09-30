@@ -1,0 +1,18 @@
+{
+  "jnp_weight": 20,
+  "amp": {
+    "public_holdout_auc": 0.963474025974026,
+    "public_holdout_ap": 0.9686383522871677,
+    "public_holdout_bal_acc": 0.9010831238653819
+  },
+  "mic": {
+    "public_holdout_mae_log10": 0.4446199411394626,
+    "public_holdout_rmse_log10": 0.561154577270073,
+    "public_holdout_r2": 0.3654986373046092
+  },
+  "toxicity": {
+    "public_holdout_auc": 0.9298358961106086,
+    "public_holdout_ap": 0.7968887060074274,
+    "public_holdout_bal_acc": 0.7633415169918594
+  }
+}

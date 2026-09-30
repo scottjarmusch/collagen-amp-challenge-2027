@@ -1,0 +1,22 @@
+[project]
+name = "collagen-amp-challenge"
+version = "0.1.0"
+description = "JNP-domain-adapted machine-learning design of collagen-derived antimicrobial peptides"
+requires-python = ">=3.13,<3.14"
+license = "MIT"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.0,<3",
+  "scikit-learn==1.8.0",
+  "joblib>=1.3,<2",
+  "rapidfuzz>=3.0,<4",
+  "torch==2.10.0",
+  "Levenshtein==0.27.3",
+]
+
+[project.scripts]
+generate = "collagen_amp_challenge.generate:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

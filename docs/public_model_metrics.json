@@ -1,0 +1,36 @@
+{
+  "amp_classifier": {
+    "n_total": 3327,
+    "n_train": 2648,
+    "n_test": 679,
+    "class_counts": {
+      "1": 1722,
+      "0": 1605
+    },
+    "roc_auc": 0.9651251805069854,
+    "average_precision": 0.9689637094006277,
+    "balanced_accuracy": 0.9056448666423091,
+    "conflicting_sequences_removed": 0
+  },
+  "mic_ecoli": {
+    "n_total": 4319,
+    "n_train": 3494,
+    "n_test": 825,
+    "mae_log10_mic": 0.440726004347393,
+    "rmse_log10_mic": 0.5594365786376784,
+    "r2": 0.3693777959742641
+  },
+  "toxicity": {
+    "n_total": 1461,
+    "class_counts": {
+      "0.0": 998,
+      "1.0": 463
+    },
+    "n_train": 1172,
+    "n_test": 289,
+    "roc_auc": 0.9271869750613775,
+    "average_precision": 0.7972366111827313,
+    "balanced_accuracy": 0.7726773484946375,
+    "conflicting_sequences_removed": 18
+  }
+}
