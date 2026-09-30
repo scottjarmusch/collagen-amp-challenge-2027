@@ -27,6 +27,15 @@ and [competition rules](https://www.kaggle.com/competitions/amp-challenge/rules)
 | Kaggle account/team eligibility, one entry/model and rule acceptance | User must verify; not inferred from repository validation |
 | Actual Kaggle submission | Authorized by the owner after validation; pending Kaggle sign-in and completion of the submission flow |
 
+## Separately uploaded candidate table
+
+`docs/final_top100.csv` was independently uploaded to GitHub in commit `70f8260`
+and is preserved. Its 100 sequences have zero overlap with the validated generated
+`generate/top.fasta`. It is not the top list covered by this validation report
+and is not used by the generator. The submission package's `top.fasta` and
+`top_annotated.csv` are the validated candidates; the independently uploaded CSV
+must not be substituted without a separate selection decision and validation.
+
 The current Kaggle page displayed a close time of October 1, 2026 at 00:00
 Europe/Copenhagen (September 30 at 22:00 UTC). Recheck the live page before upload.
 Competition-specific rules allow one submission per model and require a generative
