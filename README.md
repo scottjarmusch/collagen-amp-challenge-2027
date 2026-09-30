@@ -14,6 +14,15 @@ provenance/rights caveats. Validator success is not competition acceptance.
 
 ## What this model is doing
 
+**Sequence origin:** the submitted peptides are model-generated analogues of
+natural collagen-derived sequence windows. They are neither unchanged fragments
+extracted from collagen nor unconstrained de novo designs. The generator starts
+with recorded natural 20-residue parent windows and introduces learned amino-acid
+substitutions. Each submitted top-100 peptide differs from its recorded parent
+window by 3–6 substitutions. Parent accessions, sequences and mutation positions
+are retained in the generated annotation table. These are proposed designs;
+their occurrence in nature and experimental activity have not been established.
+
 Many AMP models learn to recognize or reproduce features of known antimicrobial
 peptides. This project starts with public AMP/non-AMP, MIC and hemolysis data to
 learn that general landscape. It then uses the experimentally characterized

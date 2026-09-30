@@ -1,6 +1,11 @@
 # Method abstract
 
 We present a collagen-domain-adapted generative antimicrobial peptide model.
+The submitted peptides are model-generated analogues of natural collagen-derived
+sequence windows, not unchanged fragments extracted from collagen and not
+unconstrained de novo sequences. The generator starts from recorded natural
+20-residue parent windows and proposes amino-acid substitutions; the submitted
+top 100 each contain 3–6 substitutions relative to their recorded parent window.
 A masked bidirectional peptide language model proposes sequence analogues around
 natural collagen-derived windows. Public-data predictors estimate antimicrobial
 activity, E. coli minimal inhibitory concentration and hemolysis/toxicity.
