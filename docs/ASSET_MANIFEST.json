@@ -16,8 +16,8 @@
     "sha256": "624caa87a20f889a8b61363e254624882ec9358773ec283cea62621b053d96f9"
   },
   "data/antibacterial.fasta": {
-    "bytes": 4397194,
-    "sha256": "1e751f0710398f9ffe1ac784d09bb27da810f67031d1844ee64cef148b6c8e95"
+    "bytes": 4318298,
+    "sha256": "cbbeac64ba95746d87961e8ad9dd0849ae8058d15a300b2e7f6990730ca521e9"
   },
   "data/collagen_seed_candidates.csv": {
     "bytes": 15825039,
@@ -28,35 +28,35 @@
     "sha256": "eeafb37adfe1a9233d1183984bcc22ab14b07b280cbd9284dbcb52ab7f439276"
   },
   "data/nematode_collagen_reference.tsv": {
-    "bytes": 553635,
-    "sha256": "e79664e75332af05430ea454c1a731933c23c0234b1d7cc413528da5c26b0304"
+    "bytes": 541824,
+    "sha256": "c97ea4b50567563e462d2289e494d1bd846817dfda44188dc93723d3bad8fa1f"
   },
   "data/training/hemolysis.csv": {
-    "bytes": 1475,
-    "sha256": "cebdd3d4f30a4566499a489e713c66296041bf7d90328fc82e564c1227474b98"
+    "bytes": 1443,
+    "sha256": "e0936356e41b2e9b65dd983fbfd8a3bd4121b407fa6c085c0e1409eaa0c54364"
   },
   "data/training/Hemolytik2_complete_data.csv": {
-    "bytes": 7745761,
-    "sha256": "60ea939eab999a375eb0b132afdce3f5ba0e21c753e32b50296df9b265647c42"
+    "bytes": 7732546,
+    "sha256": "8f875fcd50ecc825d11e95b30eb7e1ad27f0ee8abc876f096d0c458f752c83e1"
   },
   "data/training/mic_data.csv": {
-    "bytes": 210748,
-    "sha256": "58e042011b340419daa0492b32eee4bc2cdc381d26ebcba6e548b11ce0f33d6c"
+    "bytes": 206201,
+    "sha256": "7532ab39e4f6051be7ff0a9e4b6f1985090ae2ea793dc66c839c68a2f64fb0a2"
   },
   "data/training/unlabelled_negative.csv": {
-    "bytes": 4930987,
-    "sha256": "491bf203c4598c56ea19f9ed31cb5227af34970ccc4ebe1cc95afb3444f88642"
+    "bytes": 4905224,
+    "sha256": "2c9464ecf10e9bc019f2c9b0448bf74bc12cf4e7d6ea2b01983f47b816181f79"
   },
   "data/training/unlabelled_positive.csv": {
-    "bytes": 951843,
-    "sha256": "69e45c5e162dc0ee37489356cc6c5c759c35da9c47671b65dc00aebf6c51c088"
+    "bytes": 931529,
+    "sha256": "f69ae3f199bffd51e425c92de1d12a03118fc5c74006482d0b3c83cc207df5f2"
   },
   "data/training/veltri_negative.csv": {
-    "bytes": 98083,
-    "sha256": "9ffd62bb6382084d7a1d4e2a824dfd610bcf1a28152d6828ca9874d8ec7be47e"
+    "bytes": 96185,
+    "sha256": "c5280f80aa593e3e343b2b7c9e84f132f0a8ed02da3b60d94a53752f227aa2b8"
   },
   "data/training/veltri_positive.csv": {
-    "bytes": 90911,
-    "sha256": "fdaaad5714ffe48537506c30eb0d5a5a94767182433f52dcee311b2a11c7ef71"
+    "bytes": 88889,
+    "sha256": "001eff62a758d8037ea6b06fa3ee27ede30a0773ae0699dd8bccf06ef187539e"
   }
 }

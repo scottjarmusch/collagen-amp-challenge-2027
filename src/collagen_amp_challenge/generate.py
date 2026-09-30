@@ -68,7 +68,7 @@ def main():
     torch.set_num_threads(1);torch.use_deterministic_algorithms(True)
     ref_path=ROOT/'data'/'antibacterial.fasta'
     ref_bytes=ref_path.read_bytes()
-    if hashlib.sha256(ref_bytes).hexdigest() != '1e751f0710398f9ffe1ac784d09bb27da810f67031d1844ee64cef148b6c8e95':
+    if hashlib.sha256(ref_bytes).hexdigest() != 'cbbeac64ba95746d87961e8ad9dd0849ae8058d15a300b2e7f6990730ca521e9':
         raise ValueError('Organizer reference differs from the pinned snapshot; revalidate before updating it.')
     refs=[];parts=[]
     for line in ref_bytes.decode().splitlines():
