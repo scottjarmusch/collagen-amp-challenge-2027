@@ -24,8 +24,8 @@ and [competition rules](https://www.kaggle.com/competitions/amp-challenge/rules)
 | Data rights | UniProt CC BY 4.0 verified; Hemolytik2 matches official CC BY 4.0 deposit; project-derived collagen data released with attribution (DATA_LICENSES.md) |
 | Assay-to-sequence mapping | TFK-18 extended-record caveat disclosed; not silently relabeled |
 | Kaggle package | FASTAs and supporting notes prepared after GitHub validation |
-| Kaggle account/team eligibility, one entry/model and rule acceptance | User must verify; not inferred from repository validation |
-| Actual Kaggle submission | Authorized by the owner after validation; Kaggle signed in and rules accepted; writeup submission in progress |
+| Kaggle account/team eligibility, one entry/model and rule acceptance | Rules explicitly authorized and accepted; participant eligibility declarations remain the owner’s responsibility |
+| Actual Kaggle submission | Submitted; see KAGGLE_SUBMISSION_RECEIPT.json |
 
 The owner removed the independently uploaded candidate CSV in commit `f3523c2`.
 The validated generated FASTAs remain unchanged.
@@ -35,7 +35,7 @@ Europe/Copenhagen (September 30 at 22:00 UTC). Recheck the live page before uplo
 Competition-specific rules allow one submission per model and require a generative
 method. The foundational rules include a public-code-sharing provision referring
 to Kaggle discussion/notebooks; include the repository link in the appropriate
-competition channel when completing your submission. No message was posted here.
+competition channel when completing your submission. The repository is linked in the submitted writeup. A separate discussion post could not be made because New Topic is disabled.
 
 Technical validator success is established. The unresolved provenance/rights and
 assay caveats above prevent a blanket assertion that every scientific or
