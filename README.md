@@ -17,9 +17,10 @@ provenance/rights caveats. Validator success is not competition acceptance.
 Many AMP models learn to recognize or reproduce features of known antimicrobial
 peptides. This project starts with public AMP/non-AMP, MIC and hemolysis data to
 learn that general landscape. It then uses the experimentally characterized
-collagen-derived peptides from the JNP study as a small **domain-adaptation set**.
-These examples teach a more specific distinction: some collagen peptides combine
-strong antimicrobial activity with comparatively low mammalian-cell toxicity.
+collagen-derived peptides from the JNP study (https://doi.org/10.1021/acs.jnatprod.5c01318)
+as a small **domain-adaptation set**. These examples teach a more specific distinction: 
+some collagen peptides combine strong antimicrobial activity with comparatively low 
+mammalian-cell toxicity.
 
 The public data teach the model what a typical AMP looks like; the JNP examples
 help it recognize a potentially safer collagen AMP. This is a design objective,
