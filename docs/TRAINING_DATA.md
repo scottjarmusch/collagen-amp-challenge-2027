@@ -143,10 +143,9 @@ Primary sources: [HydrAMP starter kit](https://github.com/szczurek-lab/hydramp-s
 [JNP](https://doi.org/10.1021/acs.jnatprod.5c01318), and
 [UniProt licensing](https://www.uniprot.org/help/license).
 
-HydrAMP code is MIT, but original database terms still apply. Hemolytik2's
-LICENSE.txt says GPL-3.0 while its README contains conflicting MIT/noncommercial
-statements; that conflict is explicitly disclosed, not treated as a blanket
-MIT data license. Code and original model assets have the project's MIT license;
+HydrAMP code is MIT, but original database terms still apply. Hemolytik2 data match the official CC BY 4.0
+Zenodo deposit, resolving the dataset licensing basis despite conflicting
+GitHub statements; see [data licensing](DATA_LICENSES.md). Code and original model assets have the project's MIT license;
 third-party data retain their own terms. See THIRD_PARTY_NOTICES.md. Historical
 download dates/releases were not recorded in the archives; exact supplied file
 hashes are committed. Remaining provenance limits concern the original LM

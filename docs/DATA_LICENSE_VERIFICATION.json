@@ -1,0 +1,10 @@
+{
+  "source": "https://zenodo.org/records/19699377",
+  "license_in_deposit_description": "CC BY 4.0",
+  "archive_md5": "190ec14e209aef44282660f8a2139149",
+  "member": "raghavagps-Hemolytik2-4d6aba6/Hemolytik2_complete_data.csv",
+  "deposit_sha256": "60ea939eab999a375eb0b132afdce3f5ba0e21c753e32b50296df9b265647c42",
+  "bundled_sha256": "8f875fcd50ecc825d11e95b30eb7e1ad27f0ee8abc876f096d0c458f752c83e1",
+  "newline_normalized_equal": true,
+  "parsed_csv_rows_equal": true
+}

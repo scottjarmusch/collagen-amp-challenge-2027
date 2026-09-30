@@ -21,11 +21,11 @@ and [competition rules](https://www.kaggle.com/competitions/amp-challenge/rules)
 | Public training reconstruction | Passed; frozen reconstructed manifests and exact metric/prediction reproduction |
 | JNP interpretation | In-sample adaptation explicitly disclosed; same toxicity holdout confirmed |
 | Training sources and filters | Disclosed in TRAINING_DATA.md; LM master table recovered and membership reconstructed; original full-protein release and historical corpus fingerprint remain unavailable |
-| Data rights | Notices included; Hemolytik2 contradictory upstream terms remain a review item |
+| Data rights | UniProt CC BY 4.0 verified; Hemolytik2 matches official CC BY 4.0 deposit; project-derived collagen data released with attribution (DATA_LICENSES.md) |
 | Assay-to-sequence mapping | TFK-18 extended-record caveat disclosed; not silently relabeled |
 | Kaggle package | FASTAs and supporting notes prepared after GitHub validation |
 | Kaggle account/team eligibility, one entry/model and rule acceptance | User must verify; not inferred from repository validation |
-| Actual Kaggle submission | Authorized by the owner after validation; pending Kaggle sign-in and completion of the submission flow |
+| Actual Kaggle submission | Authorized by the owner after validation; Kaggle signed in and rules accepted; writeup submission in progress |
 
 The owner removed the independently uploaded candidate CSV in commit `f3523c2`.
 The validated generated FASTAs remain unchanged.

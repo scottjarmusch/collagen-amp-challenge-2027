@@ -75,7 +75,7 @@ matching the archived counts. Explicit membership and split manifests are frozen
 Historical metrics contain no corpus hash, so this is a reconstruction from the
 supplied inputs, not independently authenticated original row membership.
 See [masked-LM membership](MASKED_LM_MEMBERSHIP.md). Full-length UniProt source
-FASTA/release metadata remain unavailable; no LM retraining is claimed. Hemolytik2 has conflicting upstream license statements. The TFK-18 archive
+FASTA/release metadata remain unavailable; no LM retraining is claimed. Hemolytik2 data match the official CC BY 4.0 deposit (see DATA_LICENSES.md). The TFK-18 archive
 record contains an extended 33-residue sequence requiring assay-level clarification.
 Those caveats are visible in TRAINING_DATA.md and JNP_DOMAIN_ADAPTATION.md.
 Accordingly, technical validity is verified; blanket full-compliance/co-authorship
