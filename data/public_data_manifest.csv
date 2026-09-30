@@ -1,0 +1,8 @@
+source,name,url,role
+HydrAMP,mic_data,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/data/training/mic_data.csv,MIC regression
+HydrAMP,veltri_positive,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/data/training/veltri_positive.csv,AMP positive classification
+HydrAMP,veltri_negative,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/data/training/veltri_negative.csv,AMP negative classification
+HydrAMP,unlabelled_positive,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/data/training/unlabelled_positive.csv,AMP positive classification
+HydrAMP,unlabelled_negative,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/data/training/unlabelled_negative.csv,AMP negative classification
+HydrAMP,experimental_hemolysis,https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/main/experimental/hemolysis.csv,HC50 regression
+Hemolytik2,complete_data,https://raw.githubusercontent.com/raghavagps/Hemolytik2/main/Hemolytik2_complete_data.csv,hemolysis classification/regression

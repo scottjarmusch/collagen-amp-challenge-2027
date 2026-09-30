@@ -3,6 +3,10 @@
     "bytes": 1466448,
     "sha256": "d0cb2dbaec8669b74dc1bd2a77d425bd0021dfbb780b2c6aa95a714f36d15b91"
   },
+  "checkpoint/amp_classifier_public.joblib": {
+    "bytes": 1465680,
+    "sha256": "73f2dd88365b754383131e286ab6a70b7ea52b8467a9e42e16839b09fe37da1d"
+  },
   "checkpoint/masked_peptide_lm.pt": {
     "bytes": 300218,
     "sha256": "7bc3401ab5fc2c2e32c294505752b79684b0d4dcd08897bd22c63f5cb54a8676"
@@ -11,9 +15,17 @@
     "bytes": 1390726,
     "sha256": "57d07b302e0e81a90690d2d000daec6edbaea334515a7cb629e5e45650e11d33"
   },
+  "checkpoint/mic_ecoli_public.joblib": {
+    "bytes": 1254422,
+    "sha256": "be93f72f28e1d749e180f2c872d16778573d7e5a4e56c26355dfde04926da07f"
+  },
   "checkpoint/toxicity_jnp_adapted.joblib": {
     "bytes": 14575705,
     "sha256": "624caa87a20f889a8b61363e254624882ec9358773ec283cea62621b053d96f9"
+  },
+  "checkpoint/toxicity_public.joblib": {
+    "bytes": 10885465,
+    "sha256": "21e50d02405221f06ba67d1c3f8ea57273bd4d1d3ce1d94fc70d38e5ad6e4545"
   },
   "data/antibacterial.fasta": {
     "bytes": 4318298,
@@ -30,6 +42,74 @@
   "data/nematode_collagen_reference.tsv": {
     "bytes": 541824,
     "sha256": "c97ea4b50567563e462d2289e494d1bd846817dfda44188dc93723d3bad8fa1f"
+  },
+  "data/public_data_manifest.csv": {
+    "bytes": 1097,
+    "sha256": "d5f36cdc33185db783e64889ce2ce4f74bf0ff97f08569c923dae0399dc71a61"
+  },
+  "data/splits/adapted_public_amp_holdout.csv": {
+    "bytes": 71785,
+    "sha256": "27a85c4f34d26a45d4adfc8e222b20ddd6e3876502ce238095bf2d286ac7ac6c"
+  },
+  "data/splits/adapted_public_amp_train.csv": {
+    "bytes": 281253,
+    "sha256": "b52cf69285c7aaf84437eb1c20eaf3e7ac6fa4124e6ea285e7712d5a53aa69a7"
+  },
+  "data/splits/adapted_public_mic_holdout.csv": {
+    "bytes": 95175,
+    "sha256": "68f675459cad4727bbcc092313c3b86b782efec39f0acaafe539e456d64c6ec8"
+  },
+  "data/splits/adapted_public_mic_train.csv": {
+    "bytes": 405903,
+    "sha256": "1476e628ee77f63a2b9646f1a4ef90cadba1c8037dd1022fce153d62b81e23ab"
+  },
+  "data/splits/adapted_public_toxicity_holdout.csv": {
+    "bytes": 29935,
+    "sha256": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f"
+  },
+  "data/splits/adapted_public_toxicity_train.csv": {
+    "bytes": 122421,
+    "sha256": "1b13d08deffcfb8e567527ff87863982e1e25692c9057352872dc9b11bd9bd58"
+  },
+  "data/splits/amp_holdout.csv": {
+    "bytes": 85546,
+    "sha256": "b3517585504f40f9622a065feef760399b257d1eb899fa184da912f42fb3307a"
+  },
+  "data/splits/amp_shared_untouched_holdout.csv": {
+    "bytes": 52372,
+    "sha256": "bd04932fe90385789d931f89fdbbc576d75353c10b900925a9a88f5c218e1320"
+  },
+  "data/splits/amp_train.csv": {
+    "bytes": 334152,
+    "sha256": "c957fb9ee9b687af508bf97d0ec1a24826251e3c6cd76fd74528fb6d9ef7ed2b"
+  },
+  "data/splits/jnp_adaptation.csv": {
+    "bytes": 591,
+    "sha256": "638f9e07debe672dddb9960b79e019ac28ab3cf3439a8a8d600cf13bb7b9534f"
+  },
+  "data/splits/mic_holdout.csv": {
+    "bytes": 95175,
+    "sha256": "dbaec23562ddd8d24e4216c048fa1fe05291ae2e5657d9fd32908fabb65274c1"
+  },
+  "data/splits/mic_shared_untouched_holdout.csv": {
+    "bytes": 95175,
+    "sha256": "dbaec23562ddd8d24e4216c048fa1fe05291ae2e5657d9fd32908fabb65274c1"
+  },
+  "data/splits/mic_train.csv": {
+    "bytes": 406026,
+    "sha256": "61872fe847a050915c8cf9a73457d96e864079fb7fbc505ffdad483278814fce"
+  },
+  "data/splits/toxicity_holdout.csv": {
+    "bytes": 29935,
+    "sha256": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f"
+  },
+  "data/splits/toxicity_shared_untouched_holdout.csv": {
+    "bytes": 29935,
+    "sha256": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f"
+  },
+  "data/splits/toxicity_train.csv": {
+    "bytes": 122421,
+    "sha256": "1b13d08deffcfb8e567527ff87863982e1e25692c9057352872dc9b11bd9bd58"
   },
   "data/training/hemolysis.csv": {
     "bytes": 1443,

@@ -1,0 +1,20 @@
+{
+  "validated_commit": "2a1a67d934aa01fa1d71f6ed9c49bc4586ecd776",
+  "checked_utc": "2026-09-30T15:51:32.153359+00:00",
+  "runtime_sha256": {
+    "pyproject.toml": "2faaa4d3a688d14d2f407450c5487808348e7ce7d1fb0d1100b6a2bc5829a976",
+    "uv.lock": "8c52270de7a852a7689793159b73a49999e211d6cfd07ab293803836fad2e2af",
+    ".python-version": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+    "src/collagen_amp_challenge/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/collagen_amp_challenge/features.py": "3b6026c448f423fb24ad3e1ae291537f2fd3c151d6450ff0a8e040344dd87403",
+    "src/collagen_amp_challenge/generate.py": "694a68e1d11c10d35f43bf688dfb6f117b632ec48ee6bcd3d6a12e10856d1425",
+    "data/collagen_seed_candidates.csv": "86ad16341f95afa18029373216dc11db002f896ff1801ad54e12bb263b85154d",
+    "data/nematode_collagen_reference.tsv": "c97ea4b50567563e462d2289e494d1bd846817dfda44188dc93723d3bad8fa1f",
+    "data/antibacterial.fasta": "cbbeac64ba95746d87961e8ad9dd0849ae8058d15a300b2e7f6990730ca521e9",
+    "checkpoint/amp_classifier_jnp_adapted.joblib": "d0cb2dbaec8669b74dc1bd2a77d425bd0021dfbb780b2c6aa95a714f36d15b91",
+    "checkpoint/mic_ecoli_jnp_adapted.joblib": "57d07b302e0e81a90690d2d000daec6edbaea334515a7cb629e5e45650e11d33",
+    "checkpoint/toxicity_jnp_adapted.joblib": "624caa87a20f889a8b61363e254624882ec9358773ec283cea62621b053d96f9",
+    "checkpoint/masked_peptide_lm.pt": "7bc3401ab5fc2c2e32c294505752b79684b0d4dcd08897bd22c63f5cb54a8676",
+    "scripts/verify_submission.py": "3f2eb1bd61200abfccf07d86e9c226d57f3d12abcf25715af1d90f41531942cf"
+  }
+}

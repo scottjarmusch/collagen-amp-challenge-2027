@@ -1,0 +1,10 @@
+{
+  "scripts/archived_training/fetch_public_data.py": "088a0ac676d79ea16207e5feabd22ff25c81d1679161f59ea8e6223ce616d460",
+  "scripts/archived_training/train_domain_adapted.py": "42fd9b16c4e3f7ef9813868c321af5a2f4c8b9afff773d1f2be4901c5541bb58",
+  "scripts/archived_training/train_full_public.py": "2266fa07ca8a18226a564a394d9141e8fdbd770fc94f1c9b639568cce2285564",
+  "scripts/archived_training/train_jnp_adapter.py": "fb428fb319373be473a484106b2947dcb7ecee253cc6b22ba6929e3ed5dc1ace",
+  "scripts/archived_training/train_jnp_adapter_full.py": "426386cde0d8f4a89ed7122ec3548a95924eeccf548d3e180ce9b3f971ec021d",
+  "scripts/archived_training/train_masked_lm.py": "520614305430ad00192cce9ca77b74af4d5ab4a9fb8dc56e6566e549f9ceff5a",
+  "scripts/archived_training/train_module.py": "60cfc412ae77280160825637a492a9def642a573aeef1250a769a742b6e68c76",
+  "scripts/archived_training/train_public.py": "788c3b30072ca59eebc3eb7d53ab7c7f353ba06fe8c69a3324d454efcb919c75"
+}

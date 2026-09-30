@@ -1,0 +1,178 @@
+{
+  "split_origin": "Reconstructed from archived code and seed 42; not separately preserved original row IDs.",
+  "public_retraining": {
+    "amp": {
+      "n_train": 2648,
+      "n_holdout": 679,
+      "metrics": {
+        "roc_auc": 0.9651251805069854,
+        "average_precision": 0.9689637094006277,
+        "balanced_accuracy": 0.9056448666423091
+      },
+      "difference_from_archived_metrics": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0,
+        "balanced_accuracy": 0.0
+      },
+      "archived_model_on_reconstructed_holdout": {
+        "roc_auc": 0.9651251805069854,
+        "average_precision": 0.9689637094006277,
+        "balanced_accuracy": 0.9056448666423091
+      },
+      "max_prediction_difference_from_archived_model": 0.0
+    },
+    "mic": {
+      "n_train": 3494,
+      "n_holdout": 825,
+      "metrics": {
+        "mae_log10_mic": 0.440726004347393,
+        "rmse_log10_mic": 0.5594365786376784,
+        "r2": 0.3693777959742641
+      },
+      "difference_from_archived_metrics": {
+        "mae_log10_mic": 0.0,
+        "rmse_log10_mic": 0.0,
+        "r2": 0.0
+      },
+      "archived_model_on_reconstructed_holdout": {
+        "mae_log10_mic": 0.440726004347393,
+        "rmse_log10_mic": 0.5594365786376784,
+        "r2": 0.3693777959742641
+      },
+      "max_prediction_difference_from_archived_model": 0.0
+    },
+    "toxicity": {
+      "n_train": 1172,
+      "n_holdout": 289,
+      "metrics": {
+        "roc_auc": 0.9271869750613775,
+        "average_precision": 0.7972366111827313,
+        "balanced_accuracy": 0.7726773484946375
+      },
+      "difference_from_archived_metrics": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0,
+        "balanced_accuracy": 0.0
+      },
+      "archived_model_on_reconstructed_holdout": {
+        "roc_auc": 0.9271869750613775,
+        "average_precision": 0.7972366111827313,
+        "balanced_accuracy": 0.7726773484946375
+      },
+      "max_prediction_difference_from_archived_model": 0.0
+    }
+  },
+  "adapted_archived_holdouts": {
+    "amp": {
+      "n_holdout": 677,
+      "metrics": {
+        "roc_auc": 0.963474025974026,
+        "average_precision": 0.9686383522871677,
+        "balanced_accuracy": 0.9010831238653819
+      },
+      "jnp_group_overlap": 0
+    },
+    "mic": {
+      "n_holdout": 825,
+      "metrics": {
+        "mae_log10_mic": 0.4446199411394626,
+        "rmse_log10_mic": 0.561154577270073,
+        "r2": 0.3654986373046092
+      },
+      "jnp_group_overlap": 0
+    },
+    "toxicity": {
+      "n_holdout": 289,
+      "metrics": {
+        "roc_auc": 0.9298358961106086,
+        "average_precision": 0.7968887060074274,
+        "balanced_accuracy": 0.7633415169918594
+      },
+      "jnp_group_overlap": 0
+    }
+  },
+  "shared_untouched_holdouts": {
+    "amp": {
+      "n_common": 425,
+      "same_original_holdout_sequences": false,
+      "public": {
+        "roc_auc": 0.9618623410007534,
+        "average_precision": 0.9643138236719652,
+        "balanced_accuracy": 0.9060630235341045
+      },
+      "adapted": {
+        "roc_auc": 0.9600895271018924,
+        "average_precision": 0.9640640793433533,
+        "balanced_accuracy": 0.8966449496964056
+      }
+    },
+    "mic": {
+      "n_common": 825,
+      "same_original_holdout_sequences": true,
+      "public": {
+        "mae_log10_mic": 0.440726004347393,
+        "rmse_log10_mic": 0.5594365786376784,
+        "r2": 0.3693777959742641
+      },
+      "adapted": {
+        "mae_log10_mic": 0.4446199411394626,
+        "rmse_log10_mic": 0.561154577270073,
+        "r2": 0.3654986373046092
+      }
+    },
+    "toxicity": {
+      "n_common": 289,
+      "same_original_holdout_sequences": true,
+      "public": {
+        "roc_auc": 0.9271869750613775,
+        "average_precision": 0.7972366111827313,
+        "balanced_accuracy": 0.7726773484946375
+      },
+      "adapted": {
+        "roc_auc": 0.9298358961106086,
+        "average_precision": 0.7968887060074274,
+        "balanced_accuracy": 0.7633415169918594
+      }
+    }
+  },
+  "jnp_public_overlap": {
+    "amp": {
+      "public_train_names": [
+        "melittin"
+      ],
+      "public_holdout_names": []
+    },
+    "mic": {
+      "public_train_names": [
+        "melittin"
+      ],
+      "public_holdout_names": []
+    },
+    "toxicity": {
+      "public_train_names": [],
+      "public_holdout_names": []
+    }
+  },
+  "removed_conflicts": {
+    "amp": 0,
+    "toxicity": 18
+  },
+  "split_files_sha256": {
+    "adapted_public_amp_holdout.csv": "27a85c4f34d26a45d4adfc8e222b20ddd6e3876502ce238095bf2d286ac7ac6c",
+    "adapted_public_amp_train.csv": "b52cf69285c7aaf84437eb1c20eaf3e7ac6fa4124e6ea285e7712d5a53aa69a7",
+    "adapted_public_mic_holdout.csv": "68f675459cad4727bbcc092313c3b86b782efec39f0acaafe539e456d64c6ec8",
+    "adapted_public_mic_train.csv": "1476e628ee77f63a2b9646f1a4ef90cadba1c8037dd1022fce153d62b81e23ab",
+    "adapted_public_toxicity_holdout.csv": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f",
+    "adapted_public_toxicity_train.csv": "1b13d08deffcfb8e567527ff87863982e1e25692c9057352872dc9b11bd9bd58",
+    "amp_holdout.csv": "b3517585504f40f9622a065feef760399b257d1eb899fa184da912f42fb3307a",
+    "amp_shared_untouched_holdout.csv": "bd04932fe90385789d931f89fdbbc576d75353c10b900925a9a88f5c218e1320",
+    "amp_train.csv": "c957fb9ee9b687af508bf97d0ec1a24826251e3c6cd76fd74528fb6d9ef7ed2b",
+    "jnp_adaptation.csv": "638f9e07debe672dddb9960b79e019ac28ab3cf3439a8a8d600cf13bb7b9534f",
+    "mic_holdout.csv": "dbaec23562ddd8d24e4216c048fa1fe05291ae2e5657d9fd32908fabb65274c1",
+    "mic_shared_untouched_holdout.csv": "dbaec23562ddd8d24e4216c048fa1fe05291ae2e5657d9fd32908fabb65274c1",
+    "mic_train.csv": "61872fe847a050915c8cf9a73457d96e864079fb7fbc505ffdad483278814fce",
+    "toxicity_holdout.csv": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f",
+    "toxicity_shared_untouched_holdout.csv": "f8e2ed6e7def4985cca5addd60baa9001b8cf3c2f820c531ae38568f42de572f",
+    "toxicity_train.csv": "1b13d08deffcfb8e567527ff87863982e1e25692c9057352872dc9b11bd9bd58"
+  }
+}

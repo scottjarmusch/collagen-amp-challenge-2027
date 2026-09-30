@@ -13,7 +13,12 @@ The masked BiLSTM has a 22-token embedding of width 48, bidirectional hidden
 width 64 and a 128-to-96-to-20 output head. The handoff reports training on 5,068
 AMP plus 5,068 collagen sequences and masked validation accuracy 0.1688. The
 checkpoint contains weights, alphabet and maximum length, but not optimizer
-state, exact training examples or split membership.
+state or the original collagen master table. The recovered language-model script
+filters the unlabelled public-positive CSV to canonical 18-30-mers, samples an equal
+number of collagen candidates after excluding two refined provenance categories,
+shuffles with seed 42, and uses a seeded random 10%/minimum-1,000 validation split.
+The original full collagen master table is not bundled, so exact LM training
+membership cannot be reconstructed from the smaller inference seed table.
 
 Seeds are precomputed 20-residue windows with UniProt accessions, parent names,
 organisms and positions. Full-length protein FASTAs and the historical retrieval

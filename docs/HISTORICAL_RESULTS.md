@@ -9,7 +9,9 @@ novelty maxima and ranks must not be substituted for current validation.
 
 `public_model_metrics.json`, `domain_adapted_public_holdout_metrics.json` and
 `masked_lm_metrics.json` are supplied training/evaluation summaries; their original
-splits are unavailable. `jnp_public_vs_domain_adapted.csv` contains the supplied
+splits were subsequently reconstructed and frozen from the recovered scripts,
+and the public/adapted holdout metrics reproduced (TRAINING_RECONSTRUCTION.md).
+`jnp_public_vs_domain_adapted.csv` contains the supplied
 before/after anchor predictions. The current checkpoint's adapted predictions
 are independently compared against those values in the local audit.
 

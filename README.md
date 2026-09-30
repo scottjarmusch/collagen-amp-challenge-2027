@@ -3,11 +3,34 @@
 A masked peptide language model proposes collagen-derived analogues. Public-data
 AMP, E. coli MIC and hemolysis predictors, adapted using a small JNP collagen
 peptide set, rank the proposals. The released checkpoints and original scientific
-selection thresholds are preserved. This is an inference release, not a
-reconstruction of the missing original model-training pipeline.
+selection thresholds are preserved. The original public training pipeline has also been recovered, its deterministic
+splits reconstructed and frozen, and all three public predictors retrained with
+exact reproduction of the archived holdout metrics and predictions.
 
-**Status:** see [validation report](docs/VALIDATION_REPORT.md). A local validator
-pass does not establish public-GitHub validation or competition acceptance.
+**Status:** the official validator passed against the public GitHub repository.
+See the [validation report](docs/VALIDATION_REPORT.md) and
+[requirements audit](docs/REQUIREMENTS_AUDIT.md) for evidence and remaining
+provenance/rights caveats. Validator success is not competition acceptance.
+
+## What this model is doing
+
+Many AMP models learn to recognize or reproduce features of known antimicrobial
+peptides. This project starts with public AMP/non-AMP, MIC and hemolysis data to
+learn that general landscape. It then uses the experimentally characterized
+collagen-derived peptides from the JNP study as a small **domain-adaptation set**.
+These examples teach a more specific distinction: some collagen peptides combine
+strong antimicrobial activity with comparatively low mammalian-cell toxicity.
+
+The public data teach the model what a typical AMP looks like; the JNP examples
+help it recognize a potentially safer collagen AMP. This is a design objective,
+not a proven mechanism or a claim that all collagen peptides are safe.
+
+A learned sequence generator proposes novel analogues near natural collagen
+peptides. Adapted models rank them by predicted AMP activity, MIC and toxicity.
+Selection limits charge gain to **no more than +1 relative to the natural parent**,
+so higher Lys/Arg content cannot become the easy route to generic hypercationic
+designs. [The detailed rationale](docs/JNP_DOMAIN_ADAPTATION.md) explains the
+adaptation, public holdout checks and scientific limitations.
 
 ## Run from a clean checkout
 
@@ -49,11 +72,21 @@ documented biological-source correction discovered during this handoff.
 
 The handoff reports public-only AMP AUC 0.9651, MIC MAE 0.4407 log10(uM), and
 toxicity AUC 0.9272. Adapted results are 0.9635, 0.4446 and 0.9298 respectively.
-These historical metrics are retained, not independently re-estimated: public-only
-weights, split identifiers and training scripts were not supplied. Historical
-public-only prediction/ranking CSVs remain available as the comparison without
-JNP adaptation. They do not establish an unbiased external benchmark for newly
-generated peptides. JNP-adapted rankings are in-sample adaptation behavior.
+These metrics have now been reproduced using archived training code and explicit
+reconstructed split manifests. Public-only weights and comparisons are included.
+The toxicity holdout is identical before/after adaptation. The AMP holdouts differ;
+a shared 425-peptide comparison is separately reported. Melittin was in the public
+AMP and MIC training sets, so that anchor's public-only scores are not independent.
+JNP-adapted rankings are in-sample adaptation behavior. See
+[training reconstruction](docs/TRAINING_RECONSTRUCTION.md).
+
+To verify frozen splits and retrain the public models without overwriting released
+inference weights:
+
+```sh
+uv run python scripts/reproduce_public_training.py
+uv run python scripts/interpret_toxicity.py
+```
 
 Read [JNP adaptation](docs/JNP_DOMAIN_ADAPTATION.md),
 [training disclosure](docs/TRAINING_DATA.md), and [third-party notices](docs/THIRD_PARTY_NOTICES.md).
@@ -61,10 +94,10 @@ Predictions do not establish antimicrobial efficacy or clinical safety.
 
 ## Organizer validation
 
-After pushing to the actual public repository:
+Validate the public repository:
 
 ```sh
-uv run python scripts/verify_submission.py https://github.com/OWNER/collagen-amp-challenge-2027
+uv run python scripts/verify_submission.py https://github.com/scottjarmusch/collagen-amp-challenge-2027
 ```
 
 The unmodified validator and reference are pinned to organizer commit
