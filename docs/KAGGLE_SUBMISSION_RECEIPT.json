@@ -1,0 +1,16 @@
+{
+  "status": "Submitted! (confirmed in Kaggle UI)",
+  "writeup_url": "https://www.kaggle.com/competitions/amp-challenge/writeups/collagen-domain-adapted-amp-generation",
+  "author": "Scott A. Jarmusch",
+  "affiliation": "Technical University of Denmark",
+  "contact": "salja@dtu.dk",
+  "track": "Computational track",
+  "recorded_utc": "2026-09-30T17:59:38.944408+00:00",
+  "repository_commit_at_submission": "7fd85fa",
+  "attachments": {
+    "library.fasta": "c64fbf4dd67400ef835996b904b91d8721b15ea49be842ac3cf43c5cdc8074dc",
+    "top.fasta": "8de201de7c19c719ab09c8b4ff9e8d201af06cb1d034031b0c5dc754825e157e"
+  },
+  "package_sha256": "c567110ad4781477cf7a6cfbf3cc5bbac511f1f73243e332f641f53105a98161",
+  "forum_disclosure_status": "Repository linked in submitted writeup. Separate forum disclosure unavailable: New Topic button disabled in competition Discussion page."
+}

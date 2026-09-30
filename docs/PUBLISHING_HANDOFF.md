@@ -1,12 +1,16 @@
-# Published release and Kaggle handoff
+# Submitted to Kaggle
 
-Repository: https://github.com/scottjarmusch/collagen-amp-challenge-2027
+Kaggle confirmed **Submitted!** for [Collagen-domain-adapted AMP generation](https://www.kaggle.com/competitions/amp-challenge/writeups/collagen-domain-adapted-amp-generation).
 
-The public repository has been created and populated with explicit authorization.
-The official GitHub-clone validator passed; full command, tested SHA, date and log
-are in VALIDATION_REPORT.md. Read REQUIREMENTS_AUDIT.md for requirements outside
-the automated validator, including remaining source/rights caveats.
+Author: Scott A. Jarmusch, Technical University of Denmark.
+Contact: salja@dtu.dk. Track: Computational track (the only available track).
 
-The local submission package contains library.fasta, top.fasta, the abstract,
-methods, data disclosure, validation evidence and upload notes. No Kaggle entry,
-rule acceptance, account change, discussion post or submission was performed.
+Attachments: library.fasta, top.fasta, kaggle_submission.zip. Repository code, weights,
+recovered master and reconstructed manifests are public. Data licensing evidence
+is in DATA_LICENSES.md. Scientific limitations remain disclosed in the writeup.
+
+See KAGGLE_SUBMISSION_RECEIPT.json for submitted-file hashes. The supporting ZIP
+is a pre-submission snapshot and retains its historical pending-status notes.
+
+A separate forum code-disclosure post could not be made because Kaggle disabled
+the New Topic button. The public repository link is in the submitted writeup.
