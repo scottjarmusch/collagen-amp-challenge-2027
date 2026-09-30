@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "proposal_count": 56704,
+  "library_exact_replacements": [],
+  "top_novelty_rejections": 0,
+  "source_counts": {
+    "structural_collagen": 80,
+    "probable_collagen": 20
+  },
+  "parent_count": 84
+}

@@ -1,0 +1,25 @@
+{
+  "library_count": 50000,
+  "top_count": 100,
+  "reference_records": 39448,
+  "unique_references": 39448,
+  "library_exact_overlap": 0,
+  "top_max_reference_levenshtein_ratio": 0.7027027027027026,
+  "top_max_internal_ratio": 0.7,
+  "max_charge_gain": 0.9999968377323407,
+  "source_counts": {
+    "structural_collagen": 80,
+    "probable_collagen": 20
+  },
+  "parent_count": 84,
+  "excluded_seed_count": 811,
+  "anchor_max_absolute_prediction_deviation": {
+    "amp_classifier": 1.1102230246251565e-16,
+    "mic_ecoli": 3.552713678800501e-15,
+    "toxicity": 2.220446049250313e-16
+  },
+  "sha256": {
+    "library.fasta": "c64fbf4dd67400ef835996b904b91d8721b15ea49be842ac3cf43c5cdc8074dc",
+    "top.fasta": "8de201de7c19c719ab09c8b4ff9e8d201af06cb1d034031b0c5dc754825e157e"
+  }
+}

@@ -1,0 +1,42 @@
+Seed audit: 24604 eligible, 811 excluded
+Proposed chunk 1/13
+Proposed chunk 2/13
+Proposed chunk 3/13
+Proposed chunk 4/13
+Proposed chunk 5/13
+Proposed chunk 6/13
+Proposed chunk 7/13
+Proposed chunk 8/13
+Proposed chunk 9/13
+Proposed chunk 10/13
+Proposed chunk 11/13
+Proposed chunk 12/13
+Proposed chunk 13/13
+Generated 50000 library sequences and 100 top sequences.
+Seed audit: 24604 eligible, 811 excluded
+Proposed chunk 1/13
+Proposed chunk 2/13
+Proposed chunk 3/13
+Proposed chunk 4/13
+Proposed chunk 5/13
+Proposed chunk 6/13
+Proposed chunk 7/13
+Proposed chunk 8/13
+Proposed chunk 9/13
+Proposed chunk 10/13
+Proposed chunk 11/13
+Proposed chunk 12/13
+Proposed chunk 13/13
+Generated 50000 library sequences and 100 top sequences.
+[1] Cloning C:\Users\salja\Documents\Codex\2026-09-30\files-mentioned-by-the-user-codex\outputs\collagen-amp-challenge-2027 → work\clean-validation2
+[2] Installing dependencies
+[3] Generating library
+Running: uv run --no-sync generate
+[4] Verifying full library
+[5] Verifying top list
+[6] Checking library overlap with outputs\collagen-amp-challenge-2027\data\antibacterial.fasta
+[7] Checking top similarity with outputs\collagen-amp-challenge-2027\data\antibacterial.fasta
+[8] Checking reproducibility
+Running: uv run --no-sync generate
+
+All checks passed. Submission is valid!
